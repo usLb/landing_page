@@ -28,9 +28,12 @@ Task 2.3
 Task 2.4
 - fourth consit of 
    two paragraph
-   one button   
+   one button  
+   all under a padding / border / margin  
 -->
 
 Last is the footer and its a paragraph. That sum's up the whole of html now for the css part
 
-(somehow i feel like the amnswer is in the flex exercises I did earlier)
+(somehow i feel like the answer is in the flex exercises I did earlier)
+
+The html part is done and now for the styling in .css 
