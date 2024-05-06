@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .subject1{
+    background-color: #1F2937;
+}
+
+.logo{
+ font-size: 24px;   
+ color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    position: relative;
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li, a{
+list-style-type: none;
+padding: 0;
+gap: 22px;
+
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 32px;
+}
