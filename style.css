@@ -2,28 +2,34 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
 
 .header, .footer, .subject1{
     background-color: #1F2937;
 }
 
-.logo{
- font-size: 24px;   
- color: #f9faf8;
-}
-
 .header{
     display: flex;
-    position: relative;
+    justify-content: center;
+    align-items:center;
+   padding-bottom: 32px;
 }
 
-li{
-    display: flex;
-    text-decoration: none;
-    margin-left: auto;
-    justify-content: space-between;
-    list-style-type: none;
+.logo{
+    font-size: 24px;   
+    color: #f9faf8;
+    margin-left:auto;
+   }
+
+.right-header{
+display: flex;
+justify-content: space-around   }
+li{   
+text-decoration: none;
+margin-left: auto;
+justify-content: space-between;
 }
 
 li, a{
@@ -33,11 +39,96 @@ gap: 22px;
 
 }
 
+/*footer is a okay done and dusted*/
 .footer{
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0;
+    right: 0;
     bottom: 0;
-    text-align: center;
-    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding: 30px;
+    color: #f9faf8;
+    margin-top:32px ;
 }
+
+.subject1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding:12px;
+}
+
+.line1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.line2{
+    font-size:18px ;
+    color: #E5E7EB;
+}
+
+/*2nd subject*/
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin:52px;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ text-align: center; 
+ gap: 42px; 
+}
+
+.column{
+max-width: 250px;    
+}
+
+/*3rd subject*/
+.subject3{
+background-color: #E5E7EB;
+padding:52px;
+margin-top:72px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: light italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*4th subject*/
+.subject4{
+ display: flex;
+ background-color:#3882F6; 
+ margin-top:72px;
+ justify-content: space-between;
+ align-items: center;
+ padding:42px;
+ margin-left: 90px;
+ margin-right: 90px;
+ color: #E5E7EB;
+}
+
