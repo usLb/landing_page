@@ -6,26 +6,24 @@ body{
     
 }
 
-.header, .footer, .subject1{
-    background-color: #1F2937;
-}
-
 .header{
+    background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
-   padding-bottom: 32px;
+    padding-bottom: 32px;
+   
 }
 
 .logo{
     font-size: 24px;   
     color: #f9faf8;
-    margin-left:auto;
    }
 
 .right-header{
 display: flex;
 justify-content: space-around   }
+
 li{   
 text-decoration: none;
 margin-left: auto;
@@ -41,6 +39,8 @@ gap: 22px;
 
 /*footer is a okay done and dusted*/
 .footer{
+    background-color: #1F2937;
+
     position: relative;
     width: 100%;
     left: 0;
@@ -55,6 +55,8 @@ gap: 22px;
 }
 
 .subject1{
+    background-color: #1F2937;
+
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -70,6 +72,7 @@ gap: 22px;
 .line2{
     font-size:18px ;
     color: #E5E7EB;
+    max-width: 350px;
 }
 
 /*2nd subject*/
@@ -132,3 +135,9 @@ margin-top:72px;
  color: #E5E7EB;
 }
 
+button{
+  background-color: #3882F6; 
+  color: white; 
+  padding: 5px 12px;
+  border: none;
+}
